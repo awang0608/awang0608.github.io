@@ -1,6 +1,6 @@
 {
-  "name": "awang Blog",
-  "short_name": "awang Blog",
+  "name": "Awang Blog",
+  "short_name": "Awang Blog",
   "description": "A personal blog by engineer",
   "icons": [{
     "src": "icons/pwa_icon_128.png",

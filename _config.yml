@@ -1,6 +1,6 @@
 # Site settings
-title: awang Blog
-SEOTitle: 阿望的博客 | awang Blog
+title: Awang Blog
+SEOTitle: 阿望的博客 | Awang Blog
 header-img: img/post-bg-desk.jpg
 email: 2844081036@qq.com
 description: "Every failure is leading towards success."
@@ -18,12 +18,12 @@ sidebar-avatar: /img/awang.jpg      # use absolute URL, seeing it's used in both
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-# zhihu_username:     qiubaiying
-# github_username:    qiubaiying
-# facebook_username:  baiying.qiu.7
+# weibo_username:     awang
+# zhihu_username:     awang
+# github_username:    awang
+# facebook_username:  awang.chen.7
 # jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+#twitter_username:   awang
 
 
 
@@ -78,7 +78,7 @@ ba_track_id: 0070d40a1f6efbc05ae10a9a3729a23b
 
 # Google Analytics
 # ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_domain: auto                         # 默认的是 auto, 可填写自定义域名
 
 
 
