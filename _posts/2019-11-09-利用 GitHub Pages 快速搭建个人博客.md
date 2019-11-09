@@ -89,6 +89,10 @@ tags:
 
 这个问题主要是前几个问题导致的，在解决404问题的时候，将后缀io改成了com，然后自然而然地，_config.yml文件中关于Gitalk的配置也改成了.com结尾，而且，git上Settings-> Developer settings->OAuth Apps里注册的Homepage URL也填成了.com结尾，但是，在解决Issues are disabled for this repo问题的时候，我们是直接抛弃了.com，使用.io的，所以会出现Not Found的情况，这个时候，将，_config.yml文件中关于Gitalk的配置和Homepage URL改回.io结尾就好了
 
+> 项目跑起来后发现右侧多了一个滚动条，体验极其不友好.
+
+这个就很easy啦，调试器打开搜查元素发现是article元素设置了overflow-x:hidden导致的，虽然我没明白为什么教程中的网站没有出现这个问题，但是我大手一挥，删掉了这个样式，就好了
+
 ## 友情提示
 
 在根据教程配置Homepage URL的时候是直接填写的https://awang0608.github.io/，但实际上需要填写的整个仓库的git地址：https://github.com/awang0608/awang0608.github.io
