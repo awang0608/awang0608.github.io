@@ -32,13 +32,13 @@ tags:
 
 进入[我的仓库](https://github.com/awang0608/awang0608.github.io)将仓库fork到你的git上：点击右上角的fork按钮，等一会儿页面自动刷新，就可以了（等待时间与你的网速有关）
 
-![image](https://awang0608.github.io/master/img/2019-11-09/fork-from-qiubaiying.jpg)
+![image](https://awang0608.github.io/img/2019-11-09/fork-from-qiubaiying.jpg)
 
 > 3. 修改setting
 
 进入你自己的仓库-setting：修改你的仓库名为 你的仓库名.github.io（这里有个问题，稍后解释），改这里：
 
-![image](https://awang0608.github.io/master/img/2019-11-09/modify-setting.jpg)
+![image](https://awang0608.github.io/img/2019-11-09/modify-setting.jpg)
 
 注意：一定是你的仓库名.github.io，不然的话，你会发现git不会正确发布，比如我把仓库名改成了aaa.github.com，这个时候，下面GitHub Pages那块儿显示的发布地址就是 *https://awang0608.github.io/aaa.github.com/* ，而不是我们预期的 *https://awang0608.github.io/* 了
 
@@ -55,13 +55,13 @@ tags:
 
 教程给出的解决方案并没有解决我的问题，百思不得其解，还是百度大法好呀，要解决404的问题，需要将原仓库名awang0608.github.io修改成awang0608.github.com，等个几秒钟强刷https://awang0608.github.io/地址，就能看到网站正常显示了
 
-![image](https://awang0608.github.io/master/img/2019-11-09/question-404-solve.png)
+![image](https://awang0608.github.io/img/2019-11-09/question-404-solve.png)
 
 > 使用百度分析工具[Baidu Analytics](https://tongji.baidu.com/web/welcome/login?castk=LTE%3D)的时候，因为对分析网站不熟悉，找了很久找不到自己的ba_track_id
 
 在这里：
 
-![image](https://awang0608.github.io/master/img/2019-11-09/ba-track-id.png)
+![image](https://awang0608.github.io/img/2019-11-09/ba-track-id.png)
 
 我也不知道这个马赛克打了有什么意义，但就是，想打。
 
@@ -69,23 +69,23 @@ tags:
 
 差不多就是下面这个鬼样子：
 
-![image](https://awang0608.github.io/master/img/2019-11-09/issues-disabled-for-repo.png)
+![image](https://awang0608.github.io/img/2019-11-09/issues-disabled-for-repo.png)
 
 据说导致的原因是fork了别人的仓库，是不会有自己issues的，所以->
 
 解决办法：重新建一个空白项目，把代码移过去，这里需要注意的是，新建空白项目后，注意修改setting，主要有三个地方：一是setting里面的仓库名（关键点见步骤3），这个时候可以毫不犹豫地把.com后缀舍弃，直接使用.io后缀了，二是Features里面的Issues记得勾选（一般是默认勾选），三是需要自己设置GitHub Pages，GitHub Pages->Source:选择master，这时候不要动页面，它会自己刷新
 
-![image](https://awang0608.github.io/master/img/2019-11-09/modify-github-pages.jpg)
+![image](https://awang0608.github.io/img/2019-11-09/modify-github-pages.jpg)
 
 刷新过后
 
-![image](https://awang0608.github.io/master/img/2019-11-09/after-modify-github-pages.jpg)
+![image](https://awang0608.github.io/img/2019-11-09/after-modify-github-pages.jpg)
 
 注意哦，页面若是显示类似 ==Your site is ready to be published at https://awang0608.github.io/qiubaiying.github.io/.== 就是错的哦（这一点前面提到过，我这儿是因为没有改仓库名），要显示  ==Your site is published at https://awang0608.github.io/==，并且前面有个绿色的勾，才能正确的用这个地址显示。
 
 > Gitalk集成后报错：Error: Not Found.
 
-![image](https://awang0608.github.io/master/img/2019-11-09/gitalk-not-found.png)
+![image](https://awang0608.github.io/img/2019-11-09/gitalk-not-found.png)
 
 这个问题主要是前几个问题导致的，在解决404问题的时候，将后缀io改成了com，然后自然而然地，_config.yml文件中关于Gitalk的配置也改成了.com结尾，而且，git上Settings-> Developer settings->OAuth Apps里注册的Homepage URL也填成了.com结尾，但是，在解决Issues are disabled for this repo问题的时候，我们是直接抛弃了.com，使用.io的，所以会出现Not Found的情况，这个时候，将，_config.yml文件中关于Gitalk的配置和Homepage URL改回.io结尾就好了
 
