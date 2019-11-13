@@ -277,3 +277,23 @@
 {% endif %}
 
 <script src="{{ "/js/sweetHeart.js " | prepend: site.baseurl }}"></script>
+
+<script src="//static.tctip.com/tctip-1.0.0.min.js"></script>
+<script>
+    new tctip({
+        top: '20%',
+        button: {
+            id: 9,
+            type: 'dashang',
+        },
+        list: [
+          {
+              type: 'alipay',
+              qrImg: '//files-cdn.cnblogs.com/files/moonLightcy/zfb.bmp'
+          }, {
+              type: 'wechat',
+              qrImg: '//files-cdn.cnblogs.com/files/moonLightcy/wechat.bmp'
+          }
+        ]
+    }).init()
+</script>
