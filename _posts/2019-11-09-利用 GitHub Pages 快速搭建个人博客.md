@@ -109,6 +109,9 @@ tags:
 要使用不蒜子必须在页面中引入busuanzi.js，不蒜子可以给任何类型的个人站点使用。鉴于前端的引用惯性，我将这个脚本引用在了footer.html的最后，然后，在page.html中找个地方添加了代码来显示站点总访问量：
 
 ```
+    // footer.html
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    //page.html
     <div>本站总访问量<span id="busuanzi_value_site_pv">0</span>次</div>
 ```
 站点总访问量有两种计算方式：
