@@ -3401,14 +3401,14 @@
         document.execCommand("stop");
     } else {
         setTimeout(function () {
-            $("#code").typewriter();
+            startHeartAnimation();
         }, 5000);
         timeElapse(together);
         setInterval(function () {
             timeElapse(together);
         }, 500);
         adjustCodePosition();
-        startHeartAnimation();
+        $("#code").typewriter();
     }
 </script>
 <script id="sakura_point_vsh" type="x-shader/x_vertex">
