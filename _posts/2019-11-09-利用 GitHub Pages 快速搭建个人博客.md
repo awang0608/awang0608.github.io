@@ -24,17 +24,17 @@ tags:
 
 博客搭建主要依赖于教程[《利用 GitHub Pages 快速搭建个人博客》](https://www.jianshu.com/p/e68fba58f75c){:target="_blank"}，她的步骤都写得很详细，按着步骤来基本上问题不大，这里做个步骤总结：
 
-> 1. 最基本的，你得先有个GitHub账号
+> 1、最基本的，你得先有个GitHub账号
 
 已经有账号的往下看，没有的同学点击[这里](https://github.com/){:target="_blank"}去申请
 
-> 2. fork我的仓库到你的git里面
+> 2、fork我的仓库到你的git里面
 
 进入[我的仓库](https://github.com/awang0608/awang0608.github.io){:target="_blank"}将仓库fork到你的git上：点击右上角的fork按钮，等一会儿页面自动刷新。
 
 ![image](https://awang0608.github.io/img/2019-11-09/fork-from-qiubaiying.jpg)
 
-> 3. 修改setting
+> 3、修改setting
 
 进入你自己的仓库-setting：修改你的仓库名为 你的仓库名.github.io（这里有个问题，稍后解释），改这里：
 
