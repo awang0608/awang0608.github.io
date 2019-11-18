@@ -22,15 +22,15 @@ tags:
 
 ## 博客搭建
 
-博客搭建主要依赖于教程[《利用 GitHub Pages 快速搭建个人博客》](https://www.jianshu.com/p/e68fba58f75c)，她的步骤都写得很详细，按着步骤来基本上问题不大，这里做个步骤总结：
+博客搭建主要依赖于教程[《利用 GitHub Pages 快速搭建个人博客》](https://www.jianshu.com/p/e68fba58f75c){:target="_blank"}，她的步骤都写得很详细，按着步骤来基本上问题不大，这里做个步骤总结：
 
 > 1. 最基本的，你得先有个GitHub账号
 
-已经有账号的往下看，没有的同学点击[这里](https://github.com/)去申请
+已经有账号的往下看，没有的同学点击[这里](https://github.com/){:target="_blank"}去申请
 
 > 2. fork我的仓库到你的git里面
 
-进入[我的仓库](https://github.com/awang0608/awang0608.github.io)将仓库fork到你的git上：点击右上角的fork按钮，等一会儿页面自动刷新。
+进入[我的仓库](https://github.com/awang0608/awang0608.github.io){:target="_blank"}将仓库fork到你的git上：点击右上角的fork按钮，等一会儿页面自动刷新。
 
 ![image](https://awang0608.github.io/img/2019-11-09/fork-from-qiubaiying.jpg)
 
@@ -54,7 +54,7 @@ tags:
 
 ![image](https://awang0608.github.io/img/2019-11-09/question-404-solve.png)
 
-> 使用百度分析工具[Baidu Analytics](https://tongji.baidu.com/web/welcome/login?castk=LTE%3D)的时候，因为对分析网站不熟悉，找了很久找不到自己的ba_track_id
+> 使用百度分析工具[Baidu Analytics](https://tongji.baidu.com/web/welcome/login?castk=LTE%3D){:target="_blank"}的时候，因为对分析网站不熟悉，找了很久找不到自己的ba_track_id
 
 在这里：
 
@@ -96,7 +96,7 @@ tags:
 
 #### 小桃心
 
-小桃心的源代码是在网上找的，原功能是鼠标点击冒心心，我给新增了一个随机冒心心的功能（新增了一个定时器，慢慢跑），还让它变大了点，直接设置定时器的话，会发现如果停留在当前页之后切换到其他页面稍微长一点的时间，就有满屏的小桃心，晃瞎了我，于是加了一个判断，最多冒10个出来，嗯，心情愉悦，有兴趣的朋友可以查看源码：[sweetHeart.js](https://blog-static.cnblogs.com/files/moonLightcy/sweetHeart.js)，或者直接引用，就可以在你的网站也加上这些小心心咯~
+小桃心的源代码是在网上找的，原功能是鼠标点击冒心心，我给新增了一个随机冒心心的功能（新增了一个定时器，慢慢跑），还让它变大了点，直接设置定时器的话，会发现如果停留在当前页之后切换到其他页面稍微长一点的时间，就有满屏的小桃心，晃瞎了我，于是加了一个判断，最多冒10个出来，嗯，心情愉悦，有兴趣的朋友可以查看源码：[sweetHeart.js](https://blog-static.cnblogs.com/files/moonLightcy/sweetHeart.js){:target="_blank"}，或者直接引用，就可以在你的网站也加上这些小心心咯~
 
 #### 打赏
 
@@ -104,7 +104,7 @@ tags:
 
 #### 浏览量
 
-浏览量展示使用的是不蒜子的脚本，方便，简单。不蒜子自己的定位是：极简网页计数器，两行代码，搞定计数。（悄咪咪地说，不止计数极简，连它的[官网](http://busuanzi.ibruce.info/)也真真儿是极简）
+浏览量展示使用的是不蒜子的脚本，方便，简单。不蒜子自己的定位是：极简网页计数器，两行代码，搞定计数。（悄咪咪地说，不止计数极简，连它的[官网](http://busuanzi.ibruce.info/){:target="_blank"}也真真儿是极简）
 
 要使用不蒜子必须在页面中引入busuanzi.js，不蒜子可以给任何类型的个人站点使用。鉴于前端的引用惯性，我将这个脚本引用在了footer.html的最后，然后，在page.html中找个地方添加了代码来显示站点总访问量：
 
@@ -144,7 +144,7 @@ tags:
 
 可能有人会有疑问，不喜欢这个主题那为什么不更换一个主题呢？好吧，其实是因为我看了jekyll提供的主题，发现，这个已经很不错了，没有找到更喜欢的[手动捂脸哭]，当然，如果自己审美在线的话，我还是可以为jekyll贡献我自己的主题的。
 
-如果有想去研究一下主题的，去这里：[jekyll主题官网](http://jekyllthemes.org/)。
+如果有想去研究一下主题的，去这里：[jekyll主题官网](http://jekyllthemes.org/){:target="_blank"}。
 
 正文 完
 
