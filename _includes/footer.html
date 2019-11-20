@@ -97,6 +97,16 @@
                         </a>
                     </li>
                     {% endif %}
+                    {% if site.juejin_username %}
+                        <li>
+                            <a target="_blank" href="https://juejin.im/user/{{ site.juejin_username }}" title="掘金">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-stack-1x fa-inverse iconfont icon-awang-juejin"></i>
+                                </span>
+                            </a>
+                        </li>
+                    {% endif %}
                 </ul>   
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
