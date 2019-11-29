@@ -4353,8 +4353,7 @@ void main(void) {
 </script>
 <script>
     var env = navigator.userAgent.match(/MicroMessenger\/([\d\.]+)/i);
-    alert(JSON.stringify(env));
-    if (env && env.length) {
+    if (!env) {
         document.getElementById("code").className = "big";
     }
 
