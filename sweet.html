@@ -69,6 +69,9 @@
             font-size: 15px;
             line-height: 1.5
         }
+        #code.big {
+            font-size: 20px;
+        }
         #code .string {
             color: #2a36ff
         }
@@ -4347,6 +4350,13 @@ void main(void) {
             w.setTimeout(c, 1000 / 60);
         };
     })(window, 'equestAnimationFrame');
+</script>
+<script>
+    var env = navigator.userAgent.match(/MicroMessenger\/([\d\.]+)/i);
+    if (env && env.length) {
+        document.getElementById("code").className = "big";
+    }
+
 </script>
 </body>
 </html>
