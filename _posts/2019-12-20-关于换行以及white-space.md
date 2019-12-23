@@ -99,7 +99,7 @@ pre 元素可定义预格式化的文本，被包围在 pre 元素中的文本�
 
 ## CSS属性换行
 
-我们假设有个超长的文本节点："哈哈哈，congratulations"，我们假设有个容器长度只能装得下"哈哈哈，con"
+我们假设有个超长的文本节点：<span style="color: #3ccbaa; ">"哈哈哈，congratulations"</span>，我们假设有个容器长度只能装得下"哈哈哈，con"
 
 #### word-break
 
