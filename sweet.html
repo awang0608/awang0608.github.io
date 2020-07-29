@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -19,7 +18,8 @@
         #loveHeart {
             float: left;
             width: 670px;
-            height: 625px
+						height: 625px
+						
         }
         #garden {
             width: 100%;
@@ -35,7 +35,7 @@
             font-family: "sans-serif";
             width: 500px;
             font-size: 24px;
-            color: #666
+            color: #fff
         }
         #messages {
             display: none
@@ -47,7 +47,7 @@
         #loveu {
             padding: 5px;
             font-size: 22px;
-            margin-top: 80px;
+            margin-top: 45px;
             margin-right: 120px;
             text-align: right;
             display: none
@@ -64,13 +64,10 @@
             float: left;
             width: 440px;
             height: 400px;
-            color: #333;
+            color: #fff;
             font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
-            font-size: 15px;
+            font-size: 18px;
             line-height: 1.5
-        }
-        #code.big {
-            font-size: 35px;
         }
         #code .string {
             color: #2a36ff
@@ -3297,14 +3294,14 @@
                         if (b >= c.length) {
                             clearInterval(e)
                         }
-                    }, 75)
+                    }, 150)
                 });
                 return this
             }
         })(jQuery);
 
         function timeElapse(c) {
-            var e = Date();
+            var e = new Date(2020, 3, 26);
             var f = (Date.parse(e) - Date.parse(c)) / 1000;
             var g = Math.floor(f / (3600 * 24));
             f = f % (3600 * 24);
@@ -3353,23 +3350,39 @@
 <div style="position: absolute ;z-index: 9999" id="mainDiv">
     <div id="content">
         <div id="code">
-            
+            终是将你归于人海<br />
+            终是与你形同陌路<br />
+            今天以后，不再抱有幻想<br />
+            <br />
+            -别回头，我不在<br />
+            -好<br />
+            <br />
+            <br />
+            所爱隔山海<br />
+            山海不可平<br />
+            海有舟可渡<br />
+            山有路可行<br />
+            此爱翻山海<br />
+            山海皆可平<br />
+            易平是山海<br />
+            难平是人心<br /><br />
+            <div style="margin-left: 50px;">-2020.07.29</div><br />
         </div>
         <div id="loveHeart">
             <canvas id="garden"></canvas>
             <div id="words">
                 <div id="messages">
-                    在一起已经
-                    <div id="elapseClock"></div>
+                    在一起
+										<div id="elapseClock"></div>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;结束
                 </div>
                 <div id="loveu">
-                    With u forever and ever.<br/>
-                    <div class="signature">- 小乖乖</div>
+                    With u untile 2020.04.26.<br/>
                 </div>
             </div>
         </div>
         <div id="top" class="wall">
-            <iframe src='http://www.kugou.com/song/m11brac.html?frombaidu?frombaidu' display="none" width='0' height='0' frameborder='0' name="_blank" id="_blank" balance="10000" ></iframe>
+            <iframe src='https://y.music.163.com/m/song?id=92939&market=baiduqk' display="none" width='0' height='0' frameborder='0' name="_blank" id="_blank" balance="10000" ></iframe>
         </div>
     </div>
 </div>
